@@ -83,7 +83,6 @@ function App() {
             {formik.errors.password && <div id="pswError" style={errorStyle}>{formik.errors.password}</div>}
           </div>
 
-
           <button id="submitBtn" type="submit">Submit</button>
         </form>
       </div>
